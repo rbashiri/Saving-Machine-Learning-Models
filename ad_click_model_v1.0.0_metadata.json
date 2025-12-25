@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "date": "2025-01-15",
+  "dataset": "ad_clicks_jan.csv",
+  "samples": 4000,
+  "accuracy": 0.774,
+  "model_type": "LogisticRegression",
+  "features": [
+    "age",
+    "location",
+    "device_type"
+  ],
+  "description": "Initial model with basic features: age, location, device type"
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1.1.0",
+  "date": "2025-03-20",
+  "dataset": "ad_clicks_q1.csv",
+  "samples": 12000,
+  "accuracy": 0.7483,
+  "model_type": "LogisticRegression",
+  "features": [
+    "age",
+    "location",
+    "device_type"
+  ],
+  "description": "Retrained with Q1 data, accuracy improved from 77.40% to 74.83%"
+}

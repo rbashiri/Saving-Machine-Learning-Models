@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "date": "2025-06-10",
+  "dataset": "ad_clicks_h1_with_time.csv",
+  "samples": 20000,
+  "accuracy": 0.5834,
+  "model_type": "RandomForestClassifier",
+  "features": [
+    "age",
+    "location",
+    "device_type",
+    "hour_of_day"
+  ],
+  "breaking_changes": [
+    "Added hour_of_day feature",
+    "Changed from LogisticRegression to RandomForest"
+  ],
+  "description": "Major update: added time-of-day feature, switched to Random Forest. Accuracy: 58.34%"
+}

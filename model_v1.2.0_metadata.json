@@ -1,0 +1,14 @@
+{
+  "version": "1.2.0",
+  "model_type": "RandomForestClassifier",
+  "training_date": "2025-12-24",
+  "dataset": "customer_data_2025Q1.csv",
+  "n_samples": 8,
+  "accuracy": 1.0,
+  "hyperparameters": {
+    "n_estimators": 100,
+    "max_depth": 10,
+    "random_state": 42
+  },
+  "description": "Retrained with Q1 data, added customer tenure feature"
+}
